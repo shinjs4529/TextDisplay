@@ -7,3 +7,4 @@ $ sudo apt-get install python3-gi gir1.2-gtk-3.0
 2. catkin_ws에서 "catkin_create_pkg text_display std_msgs rospy" 명령어로 새 패키지 생성
 3. action_execution_pkg/Config/mybom2.2.json 및 tcm.json 수정하여 text_display를 자동실행 모듈에 추가
 (또는, 자동실행 모듈에 추가하지 않고 autorun 스크립트 파일에 실행 커맨드로 추가)
+4. autorun 스크립트 파일에, text display 창을 가장 front로 가져오는(Unity보다 앞으로) 커맨드 추가
